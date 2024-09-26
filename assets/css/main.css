@@ -1659,3 +1659,18 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+								#intro .image {
+									display: flex;
+									justify-content: center;
+									/* Centers horizontally */
+									align-items: center;
+									/* Centers vertically */
+								}
+
+								#intro .image img {
+									width: 340px;
+									/* Adjust to your desired width */
+									height: auto;
+									/* Keeps the aspect ratio intact */
+								}
