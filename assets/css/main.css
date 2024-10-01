@@ -1674,3 +1674,36 @@ input, select, textarea {
 									height: auto;
 									/* Keeps the aspect ratio intact */
 								}
+
+
+																.icons-grid {
+																	display: grid;
+																	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+																	/* Flexible grid */
+																	gap: 20px;
+																	/* Space between icons */
+																	text-align: center;
+																	margin-top: 20px;
+																}
+
+																.icon-item {
+																	display: flex;
+																	flex-direction: column;
+																	align-items: center;
+																	justify-content: center;
+																}
+
+																.icon-item i {
+																	font-size: 40px;
+																	/* Adjust icon size */
+																	margin-bottom: 10px;
+																	color: #CBA135;
+																	/* Adjust color to match your theme */
+																}
+
+																.icon-item {
+																	font-size: 16px;
+																	color: white;
+																	/* Adjust text color */
+																}
+								
